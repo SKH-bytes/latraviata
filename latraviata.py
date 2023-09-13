@@ -19,8 +19,8 @@ print("Ouverture de session : réussie")
 
 def connect():
 	driver.get("https://ts2.x1.europe.travian.com/")
-	driver.find_element(By.NAME,"name").send_keys("Bacleon")
-	driver.find_element(By.NAME,"password").send_keys("fbgGm41xC7")
+	driver.find_element(By.NAME,"name").send_keys("")
+	driver.find_element(By.NAME,"password").send_keys("")
 	driver.find_element(By.TAG_NAME,"button").click()
 	time.sleep(1)
 	print("Connexion : réussie")
